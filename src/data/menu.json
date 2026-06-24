@@ -1,0 +1,82 @@
+{
+    "menuler": [
+        {
+            "id": "breakfast",
+            "image":"/images/breakfast.jpg",
+            "starttitle": {
+                "tr": "Güne Başlarken",
+                "en": "Starting the Day"
+            },
+            "title": {
+                "tr": "Kahvaltı",
+                "en": "Breakfast"
+            },
+            "icon":"egg",
+            "items": [
+                {
+                    "id": "breakfast-1",
+                    "name": {
+                        "tr": "Variante Kahvaltı (2 Kişilik)",
+                        "en": "Variante Breaktfast (2 Person)"
+                    },
+                    "price": 1375,
+                    "about": {
+                        "tr": "Peynir tabağı, bal&kaymak, zeytin çeşitleri, söğüş tabağı, güveçte yumurta, ekmek çeşitleri, 1 bardak sıcak ballı süt veya 2 fincan çay",
+                        "en": "Cheese platter, honey & clotted cream, various olives, cold cuts platter, eggs in a clay pot, various breads, 1 glass of hot milk with honey or 2 cups of tea"
+                    }
+                },
+                {
+                    "id": "breakfast-2",
+                    "name": {
+                        "tr": "İzmir Kahvaltısı",
+                        "en": "İzmir Breaktfast"
+                    },
+                    "price": 400,
+                    "about": {
+                        "tr": "1 adet boyoz, İzmir tulumu, ceviz, haşlanmış yumurta, domates, salatalık, ev yapımı reçel ve 2 adet fincan çay",
+                        "en": "1 boyoz (a type of pastry), Izmir tulum cheese, walnuts, boiled egg, tomato, cucumber, homemade jam, and 2 cups of tea"
+                    }
+                }
+            ]
+        },
+        {
+        "id": "mainDishes",
+        "image":"/images/mainDishes.jpg",
+        "starttitle": {
+            "tr": "",
+            "en": ""
+        },
+        "title": {
+            "tr": "Ana Yemekler",
+            "en": "Main Dishes"
+        },
+        "icon":"wine",
+        "items": [
+            {
+                "id": "mainDishes-1",
+                "name": {
+                    "tr": "Günün Çorbası",
+                    "en": "Soup of the Day"
+                },
+                "price": 265,
+                "about": {
+                    "tr": "Kıtır Ekmek ile",
+                    "en": "With Crispy Bread"
+                }
+            },
+            {
+                "id": "mainDishes-2",
+                "name": {
+                    "tr": "Izgara Kasap Köfte",
+                    "en": "Grilled Butcher's Meatballs"
+                },
+                "price": 690,
+                "about": {
+                    "tr": "zgara kasap köfte, patates, naneli süzme yoğurt, salata tahin sos eşliğinde",
+                    "en": "Grilled butcher's meatballs, potatoes, strained yogurt with mint, and salad served with tahini sauce"
+                }
+            }
+        ]
+    }
+    ]
+}
