@@ -1,9 +1,41 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @theme {
   /* Tailwind v4 tarzı özel font tanımlama */
   --font-dejavu: "DejaVu Sans", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+  --font-poppins:  "Poppins", sans-serif;
+
 }
+
+/* Firefox için küresel ayar */
+html, body {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.05);
+}
+
+/* Chrome, Safari, Edge ve tüm webkit tarayıcılar için küresel ayar */
+::-webkit-scrollbar {
+  width: 6px;  /* Dikey çubuk genişliği */
+  height: 6px; /* Yatay çubuk yüksekliği (eğer yana doğru kayma varsa) */
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
 
 :root {
   background-color: #FAF5F0;
@@ -53,5 +85,3 @@
   flex-direction: column;
   box-sizing: border-box;
 } */
-
-

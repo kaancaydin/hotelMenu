@@ -1,3 +1,5 @@
+import type { MenuTypeProp } from "./menuType";
+
 export interface HamburgerProps {
   isOpen: boolean
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
@@ -6,5 +8,8 @@ export interface HamburgerProps {
 }
 
 export interface MenuProps {
-  isOpen: boolean
+  isOpen: boolean;
+  setOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  setActiveDir: React.Dispatch<React.SetStateAction<string>>;
+  menu: MenuTypeProp;
 }
