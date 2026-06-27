@@ -3,11 +3,12 @@ import type { LucideIcon } from "lucide-react";
 import type { IconKey } from "../types/menuType";
 import { Coffee, EggFried, Wine } from "lucide-react";
 
-export const MenuContent = ({ isOpen,setOpen, menu, setActiveDir }: MenuProps) => {
+export const MenuContent = ({ isOpen,setOpen, menu, setActiveDir, lang }: MenuProps) => {
   const iconMap: Record<IconKey, LucideIcon> = {
     coffee: Coffee,
     egg: EggFried,
     wine: Wine,
+    
   };
 
   return (
@@ -36,7 +37,7 @@ export const MenuContent = ({ isOpen,setOpen, menu, setActiveDir }: MenuProps) =
               className="flex items-center gap-3 px-4 py-3 hover:bg-gray-100 cursor-pointer border-b border-[#C4A780]"
             >
               <Icon size={20} />
-              <span>{t.title.tr}</span>
+              <span>{t.title[lang]}</span>
             </li>
           );
         })}
